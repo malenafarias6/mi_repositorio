@@ -1,0 +1,113 @@
+* {
+    Margin:0;
+    padding:0;
+    box-sizing: border-box;
+   }
+
+h1  {color:black; 
+    font-size: 4rem;
+    text-align:center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    }
+
+
+   a{color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration:none;
+    line-height: 2;
+    text-align: center;
+    background:linear-gradient(#d61111,#d6c211)
+    }
+    
+    
+
+    p{color:black;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     }
+
+body{background-color: #D61198;
+    }
+    
+
+
+img {display:block;
+    margin: auto;
+    width: 33%;
+    }
+
+ section div img { display:flex;
+                   flex-direction: row;
+                   justify-content:space-around;
+                   align-items:space-around;
+                   }
+
+                   div{ justify-items: start;
+                   }
+                   
+
+aside{text-align:right;
+     } 
+
+nav div{text-align: right;
+       }   
+       
+footer div{text-align: right;
+          }                    
+
+ body header{text-align:right;
+            }          
+   
+nav p{text-align: center;
+     }
+
+ article div{text-align: center;
+            }
+
+ aside div {text-align: center;
+           }
+
+section div{text-align: center;
+           }
+
+form {text-align:center;
+     font-weight: bold;
+     }
+
+form button{text-align: right;
+           }
+
+aside button div {text-align:right;
+                 }
+
+nav div p {font-weight: bold;
+           font-size: 2rem;
+           animation-duration: 2s;
+           animation-name: aparecer;
+           animation-iteration-count: inherit;
+           }
+
+nav div a{text-align: right;
+         }
+
+         
+           @keyframes aparecer {
+            0% {
+            opacity: 0;
+            }
+            100% {
+            opacity: 1;
+            }
+           }
+
+           h1 {animation-duration: 2s;
+              animation-name: aparecer;
+              animation-iteration-count:inherit;
+              }
+ 
+           a{animation-duration: 2s;
+             animation-name: aparecer;
+             animation-iteration-count:inherit;
+             }
+            
+            
+           
